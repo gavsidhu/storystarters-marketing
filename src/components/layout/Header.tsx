@@ -1,12 +1,6 @@
 import Image from 'next/image';
 import * as React from 'react';
 
-
-const links = [
-  { href: '/', label: 'Route 1' },
-  { href: '/', label: 'Route 2' },
-];
-
 export default function Header() {
   return (
     <header className="bg-primary-500">
