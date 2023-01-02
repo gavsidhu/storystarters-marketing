@@ -1,4 +1,5 @@
 import { Disclosure } from '@headlessui/react';
+import Image from 'next/image';
 import * as React from 'react';
 import {
   HiBolt,
@@ -360,9 +361,10 @@ export default function HomePage() {
                       fill='url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)'
                     />
                   </svg>
-                  <img
-                    className='relative mx-auto'
+                  <Image
+                    className='relative mx-auto h-auto'
                     width={490}
+                    height={0}
                     src='https://tailwindui.com/img/features/feature-example-1.png'
                     alt=''
                   />
@@ -471,9 +473,10 @@ export default function HomePage() {
                         fill='url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)'
                       />
                     </svg>
-                    <img
-                      className='relative mx-auto'
+                    <Image
+                      className='relative mx-auto h-auto'
                       width={490}
+                      height={0}
                       src='https://tailwindui.com/img/features/feature-example-2.png'
                       alt=''
                     />
@@ -500,7 +503,9 @@ export default function HomePage() {
                 </p>
               </div>
               <div className='mt-12 -mb-10 sm:-mb-24 lg:-mb-80'>
-                <img
+                <Image
+                  width={0}
+                  height={0}
                   className='rounded-lg shadow-xl ring-1 ring-black ring-opacity-5'
                   src='https://tailwindui.com/img/component-images/top-nav-with-multi-column-layout-screenshot.jpg'
                   alt=''
@@ -587,10 +592,12 @@ export default function HomePage() {
         <div className='mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:py-16 lg:px-8'>
           <div className='xl:grid xl:grid-cols-3 xl:gap-8'>
             <div className='space-y-8 xl:col-span-1'>
-              <img
+              <Image
                 className='h-10'
                 src='https://tailwindui.com/img/logos/mark.svg?color=gray&shade=300'
                 alt='Company name'
+                width={40}
+                height={40}
               />
               <p className='text-base text-gray-500'>
                 Making the world a better place through constructing elegant
