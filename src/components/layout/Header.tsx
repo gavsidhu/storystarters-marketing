@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <header className='bg-transparent'>
       <nav className='mx-auto px-4 sm:px-6 lg:px-12' aria-label='Top'>
-        <div className='flex w-full items-center justify-between border-b border-primary-500 py-3 lg:border-none'>
+        <div className='flex w-full items-center justify-between py-3 lg:border-none'>
           <div className='flex items-center'>
             <span className='sr-only'>Story Starters</span>
             <Image

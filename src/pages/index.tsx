@@ -1,14 +1,5 @@
-import { Disclosure } from '@headlessui/react';
 import Image from 'next/image';
-import * as React from 'react';
-import {
-  HiBolt,
-  HiChatBubbleBottomCenterText,
-  HiChevronDown,
-  HiEnvelope,
-  HiGlobeAlt,
-  HiScale,
-} from 'react-icons/hi2';
+import { HiCheck, HiGlobeAlt, HiScale } from 'react-icons/hi2';
 
 import Layout from '@/components/layout/Layout';
 import Seo from '@/components/Seo';
@@ -27,53 +18,46 @@ import classNames from '@/utils/classNames';
 // Before you begin editing, follow all comments with `STARTERCONF`,
 // to customize the default configuration.
 
-const transferFeatures = [
+const aiWriterFeatures = [
   {
     id: 1,
-    name: 'Competitive exchange rates',
+    name: 'Expand',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      "Takes your existing writing and expands upon it, giving you more content to work with and helping to eliminate writer's block.",
     icon: HiGlobeAlt,
   },
   {
     id: 2,
-    name: 'No hidden fees',
+    name: 'Rewrite',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      'Helps you rephrase and reorganize your writing for better flow and clarity.',
     icon: HiScale,
   },
-  {
-    id: 3,
-    name: 'Transfers are instant',
-    description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: HiBolt,
-  },
 ];
-const communicationFeatures = [
-  {
-    id: 1,
-    name: 'Mobile notifications',
-    description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: HiChatBubbleBottomCenterText,
-  },
-  {
-    id: 2,
-    name: 'Reminder emails',
-    description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: HiEnvelope,
-  },
-];
-const faqs = [
-  {
-    question: "What's the best thing about Switzerland?",
-    answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
-  },
-  // More questions...
-];
+// const communicationFeatures = [
+//   {
+//     id: 1,
+//     name: 'Mobile notifications',
+//     description:
+//       'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+//     icon: HiChatBubbleBottomCenterText,
+//   },
+//   {
+//     id: 2,
+//     name: 'Reminder emails',
+//     description:
+//       'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+//     icon: HiEnvelope,
+//   },
+// ];
+// const faqs = [
+//   {
+//     question: "What's the best thing about Switzerland?",
+//     answer:
+//       "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+//   },
+//   // More questions...
+// ];
 const navigation = {
   solutions: [
     { name: 'Marketing', href: '#' },
@@ -173,28 +157,163 @@ const navigation = {
     },
   ],
 };
+const pricing = {
+  tiers: [
+    {
+      title: 'Starter',
+      price: 15,
+      frequency: '/month',
+      description: 'Ideal for aspiring writers or those just starting out.',
+      features: [
+        '20,000 words per month',
+        'Plot generator',
+        'Character creator',
+        'Story outline generator',
+        '7-day money-back guarantee',
+      ],
+      cta: 'Try for free',
+      mostPopular: false,
+    },
+    {
+      title: 'Standard',
+      price: 60,
+      frequency: '/month',
+      description:
+        'Perfect for writers looking to take their writing to the next level.',
+      features: [
+        '100,000 words per month',
+        'Plot generator',
+        'Character creator',
+        'Story outline generator',
+        '7-day money-back guarantee',
+      ],
+      cta: 'Try for free',
+      mostPopular: false,
+    },
+    {
+      title: 'Professional',
+      price: 100,
+      frequency: '/month',
+      description:
+        'Tailored for professional writers who are looking to elevate their craft.',
+      features: [
+        '200,000 words per month',
+        'Plot generator',
+        'Character creator',
+        'Story outline generator',
+        '7-day money-back guarantee',
+      ],
+      cta: 'Try for free',
+      mostPopular: false,
+    },
+  ],
+};
+const features = [
+  {
+    name: 'Plot Generator',
+    description:
+      'Struggling to come up with a compelling plot for your story? With just one click, our AI can generate a plot for you, complete with twists and turns to keep your readers on the edge of their seats.',
+  },
+  {
+    name: 'Character Generator',
+    description:
+      "Our AI can help you develop fully fleshed-out characters, complete with personalities, backgrounds, and physical descriptions. Whether you're looking to create a complex protagonist, a charismatic villain, or a lovable sidekick, our AI can help you achieve it.",
+  },
+  {
+    name: 'Outline Generator',
+    description:
+      "Our AI can create an outline for your story, helping you organize your thoughts and plot points. With a clear outline, you'll be able to see the structure of your story and make any necessary changes to make it more engaging.",
+  },
+  // {
+  //   name: ' Story Title Generator',
+  //   description:
+  //     'Quae et accusantium quo molestiae sed sit ut quo. Quidem omnis iure et maiores porro. Eligendi deserunt.',
+  // },
+  {
+    name: 'Story Structure Templates',
+    description:
+      "We provide you with popular story structure templates such as the hero's journey, three act, and Freytag's pyramid, to help you organize your story and make it more engaging. These templates are tried and true methods that have been used by successful writers for years, and they'll help you create a story that is both compelling and satisfying.",
+  },
+  {
+    name: 'Prompt Library',
+    description:
+      "Our library is filled with writing prompts to help you get started and overcome writer's block.Whether you're looking for inspiration or a new angle for your story, our prompts will give you the jumpstart you need.",
+  },
+  // {
+  //   name: 'Drag and Drop',
+  //   description:
+  //     'Illum nesciunt odio. Dolorem nobis labore eveniet consequatur quas aut delectus molestias. Qui recusandae.',
+  // },
+  {
+    name: 'Writing Goals',
+    description:
+      'Add writing goals for your writing projects so you can track your progress and stay on track',
+  },
+];
 
 export default function HomePage() {
+  // const router = useRouter()
+  // const [email, setEmail] = useState("")
+  // const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  //   setEmail(e.target.value)
+  // }
+
+  // const [error, setError] = useState<null | string>(null)
+
+  // const onSubmit = async (e: React.FormEvent<HTMLButtonElement>) => {
+  //   e.preventDefault()
+
+  //   try {
+  //     const response = await axios.post(`${url}/api/crm`, {
+  //       email: email,
+  //       origin: "/"
+  //     })
+
+  //     // await gtag_report_conversion('https://www.storystarters.co/')
+  //     router.push('/thank-you')
+  //   } catch (error) {
+  //     console.log("Error: ", error)
+  //     if (axios.isAxiosError(error) && error.response) {
+  //       setError(error.response.data)
+  //     } else {
+  //       setError("Unexpected error")
+  //     }
+  //     setTimeout(() => {
+  //       setError(null)
+  //     }, 3000)
+  //   }
+  // }
+
   return (
     <Layout>
       {/* <Seo templateTitle='Home' /> */}
       <Seo />
 
       <main>
+        {/* Hero */}
         <section>
           <div className='relative px-6 lg:px-8'>
-            <div className='mx-auto max-w-3xl pb-32 pt-14 sm:pb-40 md:pt-32'>
+            <div className='mx-auto max-w-3xl pb-16 pt-14 sm:pb-20 md:pt-32'>
               <div>
                 <div className='hidden sm:mb-8 sm:flex sm:justify-center'></div>
                 <div>
-                  <h1 className='text-center text-4xl font-bold tracking-tight md:text-5xl'>
-                    Unlock Your Creative Potential with the Best AI Story
-                    Writer.
+                  <h1 className='text-center text-4xl font-bold md:text-6xl'>
+                    Unlock Your Creative Potential with the Best AI Story Writer
                   </h1>
-                  <p className='mt-6 text-center text-lg leading-8 text-gray-600'>
-                    Create Unique, Engaging Stories with an AI Story Writer.
+                  <p className='mt-6 text-center text-lg leading-8  text-gray-600 md:text-xl'>
+                    Our AI Story Writer can help you brainstorm ideas, develop
+                    compelling plots, create memorable characters, and write
+                    amazing stories in no time.
                   </p>
-                  <div className='mt-8 sm:mx-auto sm:max-w-lg sm:text-center '>
+                  <div className='mx-auto mt-8 flex max-w-lg justify-center'>
+                    <a
+                      href='#'
+                      className='inline-flex w-1/2 items-center justify-center rounded-md border border-transparent bg-gray-800 px-5 py-3 text-base font-medium text-white hover:bg-gray-900'
+                    >
+                      Try it for free
+                    </a>
+                  </div>
+                  {/* <div className='mt-8 sm:mx-auto sm:max-w-lg sm:text-center '>
                     <form action='#' method='POST' className='mt-3 sm:flex'>
                       <label htmlFor='email' className='sr-only'>
                         Email
@@ -213,101 +332,28 @@ export default function HomePage() {
                         Get early access
                       </button>
                     </form>
-                  </div>
+                  </div> */}
                 </div>
-                <div className='absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]'>
-                  <svg
-                    className='relative left-[calc(50%+3rem)] h-[21.1875rem] max-w-none -translate-x-1/2 sm:left-[calc(50%+36rem)] sm:h-[42.375rem]'
-                    viewBox='0 0 1155 678'
-                    fill='none'
-                    xmlns='http://www.w3.org/2000/svg'
-                  >
-                    <path
-                      fill='url(#ecb5b0c9-546c-4772-8c71-4d3f06d544bc)'
-                      fillOpacity='.3'
-                      d='M317.219 518.975L203.852 678 0 438.341l317.219 80.634 204.172-286.402c1.307 132.337 45.083 346.658 209.733 145.248C936.936 126.058 882.053-94.234 1031.02 41.331c119.18 108.451 130.68 295.337 121.53 375.223L855 299l21.173 362.054-558.954-142.079z'
-                    />
-                    <defs>
-                      <linearGradient
-                        id='ecb5b0c9-546c-4772-8c71-4d3f06d544bc'
-                        x1='1155.49'
-                        x2='-78.208'
-                        y1='.177'
-                        y2='474.645'
-                        gradientUnits='userSpaceOnUse'
-                      >
-                        <stop stopColor='#9089FC' />
-                        <stop offset={1} stopColor='#FF80B5' />
-                      </linearGradient>
-                    </defs>
-                  </svg>
-                </div>
+                <div className='absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]'></div>
               </div>
             </div>
           </div>
         </section>
+        {/* Feature alternating */}
         <section>
-          <div className='overflow-hidden bg-gray-50 py-16 lg:py-24'>
+          <div className='overflow-hidden bg-white py-16 lg:py-24'>
             <div className='relative mx-auto max-w-xl px-6 lg:max-w-7xl lg:px-8'>
-              <svg
-                className='absolute left-full hidden -translate-x-1/2 -translate-y-1/4 transform lg:block'
-                width={404}
-                height={784}
-                fill='none'
-                viewBox='0 0 404 784'
-                aria-hidden='true'
-              >
-                <defs>
-                  <pattern
-                    id='b1e6e422-73f8-40a6-b5d9-c8586e37e0e7'
-                    x={0}
-                    y={0}
-                    width={20}
-                    height={20}
-                    patternUnits='userSpaceOnUse'
-                  >
-                    <rect
-                      x={0}
-                      y={0}
-                      width={4}
-                      height={4}
-                      className='text-gray-200'
-                      fill='currentColor'
-                    />
-                  </pattern>
-                </defs>
-                <rect
-                  width={404}
-                  height={784}
-                  fill='url(#b1e6e422-73f8-40a6-b5d9-c8586e37e0e7)'
-                />
-              </svg>
-
-              <div className='relative'>
-                <h2 className='text-center text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl'>
-                  A better way to send money
-                </h2>
-                <p className='mx-auto mt-4 max-w-3xl text-center text-xl text-gray-500'>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Possimus magnam voluptatum cupiditate veritatis in, accusamus
-                  quisquam.
-                </p>
-              </div>
-
-              <div className='relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:items-center lg:gap-8'>
+              {/* <div className='relative mt-12 lg:mt-16 lg:grid lg:grid-cols-2 lg:items-center lg:gap-8'>
                 <div className='relative'>
                   <h3 className='text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl'>
-                    Transfer funds world-wide
+                    Write your stories faster
                   </h3>
                   <p className='mt-3 text-lg text-gray-500'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Pariatur minima sequi recusandae, porro maiores officia
-                    assumenda aliquam laborum ab aliquid veritatis impedit odit
-                    adipisci optio iste blanditiis facere. Totam, velit.
+                    AI Story Writer is the perfect tool for story writers looking to streamline their writing process. This intuitive writing tool uses the power of artificial intelligence to generate quality stories in a fraction of the time of manual writing.
                   </p>
 
                   <dl className='mt-10 space-y-10'>
-                    {transferFeatures.map((item) => (
+                    {aiWriterFeatures.map((item) => (
                       <div key={item.id} className='relative'>
                         <dt>
                           <div className='absolute flex h-12 w-12 items-center justify-center rounded-xl bg-indigo-500 text-white'>
@@ -329,109 +375,42 @@ export default function HomePage() {
                   className='relative -mx-4 mt-10 lg:mt-0'
                   aria-hidden='true'
                 >
-                  <svg
-                    className='absolute left-1/2 -translate-x-1/2 translate-y-16 transform lg:hidden'
-                    width={784}
-                    height={404}
-                    fill='none'
-                    viewBox='0 0 784 404'
-                  >
-                    <defs>
-                      <pattern
-                        id='ca9667ae-9f92-4be7-abcb-9e3d727f2941'
-                        x={0}
-                        y={0}
-                        width={20}
-                        height={20}
-                        patternUnits='userSpaceOnUse'
-                      >
-                        <rect
-                          x={0}
-                          y={0}
-                          width={4}
-                          height={4}
-                          className='text-gray-200'
-                          fill='currentColor'
-                        />
-                      </pattern>
-                    </defs>
-                    <rect
-                      width={784}
-                      height={404}
-                      fill='url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)'
-                    />
-                  </svg>
                   <Image
-                    className='relative mx-auto h-auto'
-                    width={490}
+                    className='h-auto mx-auto shadow-lg'
+                    src="/videos/story_writer_feature.gif"
+                    width={440}
                     height={0}
-                    src='https://tailwindui.com/img/features/feature-example-1.png'
-                    alt=''
+                    alt="Ai story writer expand "
                   />
                 </div>
-              </div>
-
-              <svg
-                className='absolute right-full hidden translate-x-1/2 translate-y-12 transform lg:block'
-                width={404}
-                height={784}
-                fill='none'
-                viewBox='0 0 404 784'
-                aria-hidden='true'
-              >
-                <defs>
-                  <pattern
-                    id='64e643ad-2176-4f86-b3d7-f2c5da3b6a6d'
-                    x={0}
-                    y={0}
-                    width={20}
-                    height={20}
-                    patternUnits='userSpaceOnUse'
-                  >
-                    <rect
-                      x={0}
-                      y={0}
-                      width={4}
-                      height={4}
-                      className='text-gray-200'
-                      fill='currentColor'
-                    />
-                  </pattern>
-                </defs>
-                <rect
-                  width={404}
-                  height={784}
-                  fill='url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)'
-                />
-              </svg>
-
+              </div> */}
               <div className='relative mt-12 sm:mt-16 lg:mt-24'>
                 <div className='lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:items-center lg:gap-8'>
                   <div className='lg:col-start-2'>
                     <h3 className='text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl'>
-                      Always in the loop
+                      Write your stories faster
                     </h3>
                     <p className='mt-3 text-lg text-gray-500'>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Impedit ex obcaecati natus eligendi delectus, cum deleniti
-                      sunt in labore nihil quod quibusdam expedita nemo.
+                      Story Starter's AI story writer is the perfect tool for
+                      creative writers looking to streamline their writing
+                      process.
                     </p>
 
                     <dl className='mt-10 space-y-10'>
-                      {communicationFeatures.map((item) => (
+                      {aiWriterFeatures.map((item) => (
                         <div key={item.id} className='relative'>
                           <dt>
-                            <div className='absolute flex h-12 w-12 items-center justify-center rounded-xl bg-indigo-500 text-white'>
+                            {/* <div className='absolute flex h-12 w-12 items-center justify-center rounded-xl bg-indigo-500 text-white'>
                               <item.icon
                                 className='h-8 w-8'
                                 aria-hidden='true'
                               />
-                            </div>
-                            <p className='ml-16 text-lg font-medium leading-6 text-gray-900'>
+                            </div> */}
+                            <p className='text-lg font-medium leading-6 text-gray-900'>
                               {item.name}
                             </p>
                           </dt>
-                          <dd className='mt-2 ml-16 text-base text-gray-500'>
+                          <dd className='mt-2 text-base text-gray-500'>
                             {item.description}
                           </dd>
                         </div>
@@ -440,45 +419,14 @@ export default function HomePage() {
                   </div>
 
                   <div className='relative -mx-4 mt-10 lg:col-start-1 lg:mt-0'>
-                    <svg
-                      className='absolute left-1/2 -translate-x-1/2 translate-y-16 transform lg:hidden'
-                      width={784}
-                      height={404}
-                      fill='none'
-                      viewBox='0 0 784 404'
-                      aria-hidden='true'
-                    >
-                      <defs>
-                        <pattern
-                          id='e80155a9-dfde-425a-b5ea-1f6fadd20131'
-                          x={0}
-                          y={0}
-                          width={20}
-                          height={20}
-                          patternUnits='userSpaceOnUse'
-                        >
-                          <rect
-                            x={0}
-                            y={0}
-                            width={4}
-                            height={4}
-                            className='text-gray-200'
-                            fill='currentColor'
-                          />
-                        </pattern>
-                      </defs>
-                      <rect
-                        width={784}
-                        height={404}
-                        fill='url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)'
-                      />
-                    </svg>
-                    <Image
-                      className='relative mx-auto h-auto'
-                      width={490}
+                    <video
+                      autoPlay
+                      muted
+                      loop
+                      className='mx-auto h-auto shadow-lg'
+                      src='/videos/ai_writier_video.mp4'
+                      width={440}
                       height={0}
-                      src='https://tailwindui.com/img/features/feature-example-2.png'
-                      alt=''
                     />
                   </div>
                 </div>
@@ -486,36 +434,145 @@ export default function HomePage() {
             </div>
           </div>
         </section>
+        {/* Feature Grid */}
         <section>
-          <div className='relative overflow-hidden bg-gray-50 pt-24 sm:pt-32 lg:pt-40'>
+          <div className='bg-white'>
+            <div className='mx-auto max-w-7xl py-16 px-6 sm:py-24 lg:grid lg:grid-cols-3 lg:gap-x-12 lg:px-8 lg:py-40'>
+              <div>
+                <h2 className='text-lg font-semibold leading-8 tracking-tight text-indigo-600'>
+                  Powerful features
+                </h2>
+                <p className='mt-2 text-4xl font-bold tracking-tight text-gray-900'>
+                  Unleash your creativity
+                </p>
+                <p className='mt-6 text-base leading-7 text-gray-600'>
+                  Story Starters includes everything you need to to make the
+                  writing process faster, more efficient, and more enjoyable.
+                </p>
+              </div>
+              <div className='mt-20 lg:col-span-2 lg:mt-0'>
+                <dl className='grid grid-cols-1 gap-12 sm:grid-flow-col sm:grid-cols-2 sm:grid-rows-3'>
+                  {features.map((feature) => (
+                    <div key={feature.name} className='relative'>
+                      <dt>
+                        <HiCheck
+                          className='absolute mt-1 h-6 w-6 text-indigo-600'
+                          aria-hidden='true'
+                        />
+                        <p className='ml-10 text-lg font-semibold leading-8 text-gray-900'>
+                          {feature.name}
+                        </p>
+                      </dt>
+                      <dd className='mt-2 ml-10 text-base leading-7 text-gray-600'>
+                        {feature.description}
+                      </dd>
+                    </div>
+                  ))}
+                </dl>
+              </div>
+            </div>
+          </div>
+          )
+        </section>
+        {/* Feature big screenshot */}
+        <section>
+          <div className='relative overflow-hidden bg-gray-50 pt-14 sm:pt-24 lg:pt-32'>
             <div className='mx-auto max-w-md px-6 text-center sm:max-w-3xl lg:max-w-7xl lg:px-8'>
               <div>
                 <h2 className='text-lg font-semibold text-indigo-600'>
-                  Serverless
+                  Intuitive
                 </h2>
                 <p className='mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl'>
-                  No server? No problem.
+                  Organize with ease
                 </p>
                 <p className='mx-auto mt-5 max-w-prose text-xl text-gray-600'>
-                  Phasellus lorem quam molestie id quisque diam aenean nulla in.
-                  Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend
-                  condimentum id viverra nulla.
+                  Our drag-and-drop interface is designed to make organizing
+                  your story easy and intuitive.
                 </p>
               </div>
               <div className='mt-12 -mb-10 sm:-mb-24 lg:-mb-80'>
                 <Image
-                  width={0}
-                  height={0}
-                  className='rounded-lg shadow-xl ring-1 ring-black ring-opacity-5'
+                  className='h-auto rounded-lg shadow-xl ring-1 ring-black ring-opacity-5'
                   src='https://tailwindui.com/img/component-images/top-nav-with-multi-column-layout-screenshot.jpg'
                   alt=''
+                  width={1200}
+                  height={800}
                 />
               </div>
             </div>
           </div>
         </section>
+        {/* Pricing */}
         <section>
-          <div className='bg-gray-50'>
+          <div className='mx-auto max-w-7xl bg-white py-24 px-6 lg:px-8'>
+            <h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl sm:leading-none lg:text-6xl'>
+              Pricing for Every Writer
+            </h2>
+            <p className='mt-6 max-w-2xl text-xl text-gray-500'>
+              Whether you're a beginner just starting out or a seasoned pro
+              looking to take your writing to the next level, we have a plan
+              that will suit your needs.
+            </p>
+
+            {/* Tiers */}
+            <div className='mt-24 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-8 lg:space-y-0'>
+              {pricing.tiers.map((tier) => (
+                <div
+                  key={tier.title}
+                  className='relative flex flex-col rounded-2xl border border-gray-200 bg-white p-8 shadow-sm'
+                >
+                  <div className='flex-1'>
+                    <h3 className='text-xl font-semibold text-gray-900'>
+                      {tier.title}
+                    </h3>
+                    {tier.mostPopular ? (
+                      <p className='absolute top-0 -translate-y-1/2 transform rounded-full bg-indigo-500 py-1.5 px-4 text-sm font-semibold text-white'>
+                        Most popular
+                      </p>
+                    ) : null}
+                    <p className='mt-4 flex items-baseline text-gray-900'>
+                      <span className='text-5xl font-bold tracking-tight'>
+                        ${tier.price}
+                      </span>
+                      <span className='ml-1 text-xl font-semibold'>
+                        {tier.frequency}
+                      </span>
+                    </p>
+                    <p className='mt-6 text-gray-500'>{tier.description}</p>
+
+                    {/* Feature list */}
+                    <ul role='list' className='mt-6 space-y-6'>
+                      {tier.features.map((feature) => (
+                        <li key={feature} className='flex'>
+                          <HiCheck
+                            className='h-6 w-6 flex-shrink-0 text-indigo-500'
+                            aria-hidden='true'
+                          />
+                          <span className='ml-3 text-gray-500'>{feature}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+
+                  <a
+                    href='#'
+                    className={classNames(
+                      tier.mostPopular
+                        ? 'bg-indigo-500 text-white hover:bg-indigo-600'
+                        : 'bg-indigo-50 text-indigo-700 hover:bg-indigo-100',
+                      'mt-8 block w-full rounded-md border border-transparent py-3 px-6 text-center font-medium'
+                    )}
+                  >
+                    {tier.cta}
+                  </a>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+        {/* FAQs */}
+        <section>
+          {/* <div className='bg-gray-50'>
             <div className='mx-auto max-w-7xl py-12 px-4 sm:py-16 sm:px-6 lg:px-8'>
               <div className='mx-auto max-w-3xl divide-y-2 divide-gray-200'>
                 <h2 className='text-center text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl'>
@@ -554,38 +611,36 @@ export default function HomePage() {
                 </dl>
               </div>
             </div>
-          </div>
+          </div> */}
         </section>
+        {/* CTA */}
         <section>
           <div className='bg-white'>
             <div className='mx-auto max-w-7xl py-12 px-4 text-center sm:px-6 lg:py-16 lg:px-8'>
-              <h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl'>
-                <span className='block'>Ready to dive in?</span>
-                <span className='block'>Start your free trial today.</span>
+              <h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl'>
+                <span className='block'>
+                  Unlock the full potential of your writing
+                </span>
+                {/* <span className='block'>Start your free trial today.</span> */}
               </h2>
-              <div className='mt-8 flex justify-center'>
-                <div className='inline-flex rounded-md shadow'>
-                  <a
-                    href='#'
-                    className='inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white hover:bg-indigo-700'
-                  >
-                    Get started
-                  </a>
-                </div>
-                <div className='ml-3 inline-flex'>
-                  <a
-                    href='#'
-                    className='inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-100 px-5 py-3 text-base font-medium text-indigo-700 hover:bg-indigo-200'
-                  >
-                    Learn more
-                  </a>
-                </div>
+              <p className='mt-6 text-center text-xl text-gray-500'>
+                Say goodbye to writer's block and hello to a faster, more
+                efficient writing process.
+              </p>
+              <div className='mx-auto mt-8 flex max-w-lg justify-center'>
+                <a
+                  href='#'
+                  className='inline-flex w-1/2 items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white hover:bg-indigo-700'
+                >
+                  Try it for free
+                </a>
               </div>
             </div>
           </div>
         </section>
       </main>
-      <footer className='bg-white' aria-labelledby='footer-heading'>
+      {/* Footer */}
+      <footer className='mt-28 bg-white' aria-labelledby='footer-heading'>
         <h2 id='footer-heading' className='sr-only'>
           Footer
         </h2>
