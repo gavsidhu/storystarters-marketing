@@ -1,0 +1,113 @@
+[
+  {
+    "origin_title": "",
+    "origin_genre": "",
+    "media_type": "",
+    "role": "",
+    "plot": "",
+    "name": "",
+    "age": "",
+    "gender": "",
+    "occupation": "",
+    "physical_description": "",
+    "personality": "",
+    "background": "",
+    "flaws": "",
+    "motivation": "",
+    "relationships": "",
+    "quotes": [""]
+  },
+  {
+    "origin_title": "Knives Out",
+    "origin_genre": "mystery",
+    "media_type": "film",
+    "role": "protagonist",
+    "plot": "The circumstances surrounding the death of crime novelist Harlan Thrombey are mysterious, but there's one thing that renowned Detective Benoit Blanc knows for sure -- everyone in the wildly dysfunctional Thrombey family is a suspect. Now, Blanc must sift through a web of lies and red herrings to uncover the truth.",
+    "name": "Benoit Blanc",
+    "age": "42",
+    "gender": "male",
+    "occupation": "Private investigator",
+    "physical_description": "Benoit Blanc is middle-aged man with pale skin, short greying hair, and very distinct bright blue eyes. He has a very sharp taste in fashion",
+    "personality": "He is flamboyant, practical, gentlemanly, somewhat eccentric, a cigar chomper, but incredibly clever, intelligent, and overall a good detective. Blanc also speaks like a member of the Southern aristocracy. He has a tendency to use phrases and words that not many people understand, but also often employs the use of metaphors during his cases. Blanc is at times sneaky, relentless, and snarky, but almost always in order to further progress during an investigation. He can also be very deceiving and manipulative. He takes his job seriously and always wants justice to be served, striving for the truth above all else. He can appear bumbling on occasions but in no doubt has a brilliant mind. He is also very kind and has a tendency of helping out the 'underdogs'",
+    "background": "Blanc comes from the southern United States, and his father worked as a detective, but has since retired. He has long been regarded as an incredibly famous detective due to the number of high-profile mysteries he has investigated. He once solved a case with a tennis champion involved. He also solved the murder of a ballet dancer.",
+    "flaws": "Blanc needs to be constantly challenged, otherwise he falls depressive episodes. He tends to lose his sanity between cases",
+    "motivation": "He is motivated by justice and uncovering the truth.",
+    "relationships": "",
+    "quotes": [
+      "It's a weird case from the start. A case with a hole in the center. A doughnut.",
+      "The game is afoot. Eh, Watson?",
+      "I suspect foul play. I have eliminated no suspects.",
+      "Physical evidence can tell a clear story with a forked tongue.",
+      "Why is grief the providence of youth? I don't know. But I'd imagine that age deepens all feelings.",
+      "Best judge of character is a dog. I've found that to be true."
+    ]
+  },
+  {
+    "origin_title": "Knives Out",
+    "origin_genre": "mystery",
+    "media_type": "film",
+    "role": "deuteragonist ",
+    "plot": "The circumstances surrounding the death of crime novelist Harlan Thrombey are mysterious, but there's one thing that renowned Detective Benoit Blanc knows for sure -- everyone in the wildly dysfunctional Thrombey family is a suspect. Now, Blanc must sift through a web of lies and red herrings to uncover the truth.",
+    "name": "Marta Cabrera",
+    "age": "29",
+    "gender": "female",
+    "occupation": "Registered nurse",
+    "physical_description": "Marta is a young woman with brown hair and brown eyes. She wears a gray coat over a purple shirt. She carries a pink, yellow and red-colored scarf with her and wears large boots.",
+    "personality": "Marta is an incredibly compassionate and generous woman. One of Marta's most notable features is her forgiving and kind nature. Marta is skilled at her job, friendly and chatty with Harlan, and accommodating to Harlan's family, but she is well aware of the difference in their positions in life.",
+    "background": "Marta was hired by Harlan to be his personal nurse. The two would spend a lot of time together, either talking or playing Go. Unlike the rest of Harlan's family, she treated him like a genuine friend who was interested in spending time with him not for his wealth or status, but because of his character. Because of that, the two of them got along very well, and Harlan would reveal to her several secrets of the family.",
+    "flaws": "Marta often puts the needs of other before her own needs. She is also unable to lie without throwing up.",
+    "motivation": "Protect herself and her own family while also doing right by her friend Harlan",
+    "relationships": "",
+    "quotes": [
+      "You're not much of a detective, are you?",
+      "I'm not trying to beat you. I'm creating a beautiful pattern.",
+      "I've never been to a will reading before.",
+      "This family, I should care for them. Right?"
+    ]
+  },
+  {
+    "origin_title": "Knives Out",
+    "origin_genre": "mystery",
+    "media_type": "film",
+    "role": "tertiary character",
+    "plot": "The circumstances surrounding the death of crime novelist Harlan Thrombey are mysterious, but there's one thing that renowned Detective Benoit Blanc knows for sure -- everyone in the wildly dysfunctional Thrombey family is a suspect. Now, Blanc must sift through a web of lies and red herrings to uncover the truth.",
+    "name": "Megan 'Meg' Thrombey",
+    "age": "21",
+    "gender": "female",
+    "occupation": "Student",
+    "physical_description": "",
+    "personality": "Meg is the most morally grey out of all the Thrombeys. Being a modern day college student, Meg fights for a good cause but it's often debatable whether or not she actually cares for the people she stands up for or is just focused on the cause itself. ",
+    "background": "The daughter of Joni and the late Neil Thrombey, Meg is the only granddaughter of famed author Harlan Thrombey.",
+    "flaws": "She can be greedy, bratty, and stubborn. She is also easily manipulated.",
+    "motivation": "She fights for a good cause",
+    "relationships": "",
+    "quotes": [
+      "Hey asshole not her name not her job!",
+      "He's an alt-right dipstick troll."
+    ]
+  },
+  {
+    "origin_title": "Knives Out",
+    "origin_genre": "mystery",
+    "media_type": "film",
+    "role": "antagonist",
+    "plot": "The circumstances surrounding the death of crime novelist Harlan Thrombey are mysterious, but there's one thing that renowned Detective Benoit Blanc knows for sure -- everyone in the wildly dysfunctional Thrombey family is a suspect. Now, Blanc must sift through a web of lies and red herrings to uncover the truth.",
+    "name": "Hugh 'Ransom' Drysdale",
+    "age": "31",
+    "gender": "male",
+    "occupation": "Unemployed",
+    "physical_description": "He is tall with piercing eyes and a piercing stare. He has a cold, calculating demeanor and an air of superiority. He dresses in a way that shows off his wealth and power, and has a cocky attitude that borders on aggressive. Ransom is very eloquent and able to talk his way out of almost any situation.",
+    "personality": "Ransom is an eccentric but spoiled brat, whose livelihood as a playboy is predicated on his family's wealth. This makes him arrogant and unpleasant in nature, but unlike the rest of the family, he does not hide this part and has no patience for that. He is overall a selfish, heartless, psychopathic and somewhat immature person. He is fully aware of his disgusting nature and he takes pride in the hate his family has on him. That said, he can be charming, charismatic and polite when he wants to be, in order to have what he wants.",
+    "background": "The eldest grandchild of Harlan Thombrey. Ransom grew up to be the black sheep of the Thrombey family.",
+    "flaws": "He is lazy, slightly stupid, and does not pay attention to small details",
+    "motivation": "To get his share of his inheritance.",
+    "relationships": "",
+    "quotes": [
+      "That's some heavy-duty conjecture.",
+      "Matter of fact, eat shit. How's that?",
+      "I'm going to say this just to you. No cameras, no courthouse, because you know it's true. We allowed you into our home, let you watch our grand dad, welcome you into our family. And now you think you can steal it from us. You think I'm not going to fight to protect my own, our birthright, our ancestral home...",
+      "I regret not taking the Beemer.",
+      "Oh shut up! Shut up! Shut up with that Kentucky fried Foghorn Leghorn drawl!"
+    ]
+  }
+]
