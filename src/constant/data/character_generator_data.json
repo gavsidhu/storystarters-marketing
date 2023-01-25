@@ -15,9 +15,7 @@
     "flaws": "",
     "motivation": "",
     "relationships": "",
-    "quotes": [
-      ""
-    ]
+    "quotes": [""]
   },
   {
     "origin_title": "Knives Out",
@@ -340,6 +338,53 @@
       "We both know I'm not above killing children, but I'm not wasteful.",
       "It's the things we love most that destroy us.",
       "It takes ten times as long to put yourself back together as it does to fall apart."
+    ]
+  },
+  {
+    "origin_title": "The Fault in Our Stars",
+    "origin_genre": "romance",
+    "media_type": "novel",
+    "role": "protagonist",
+    "plot": "Hazel Grace Lancaster, a 16-year-old cancer patient, meets and falls in love with Gus Waters, a similarly afflicted teen from her cancer support group. Hazel feels that Gus really understands her. They both share the same acerbic wit and a love of books, especially Grace's touchstone, 'An Imperial Affliction' by Peter Van Houten. When Gus scores an invitation to meet the reclusive author, he and Hazel embark on the adventure of their brief lives.",
+    "name": "Hazel Grace Lancaster",
+    "age": "16",
+    "gender": "female",
+    "occupation": "Student",
+    "physical_description": "Hazel has a pageboy haircut with dark brown hair and green eyes, she describes herself as having 'chipmunk cheeks' from steroidal treatment. She suffers from stage IV cancer and metastasis which has spread to her lungs. For this reason, Hazel must carry an oxygen tank and nasal canulas wherever she goes. She also usually wears converse shoes,",
+    "personality": "She is cynical, witty, and thoughtful. Even though she's only 16, Hazel is wise beyond her years.",
+    "background": "Hazel is diagnosed with Stage IV Thyroid cancer with metastasis forming in her lungs, but has managed to live with her disease owing to doses of an experimental drug called Phalanxifor",
+    "flaws": "Hazel's biggest flaw is the need to push people away to stop them from getting hurt.",
+    "motivation": "To live without hurting anyone.",
+    "relationships": "",
+    "quotes": [
+      "Sometimes, you read a book and it fills you with this weird evangelical zeal, and you become convinced that the shattered world will never be put back together unless and until all living humans read the book.",
+      "As he read, I fell in love the way you fall asleep: slowly, and then all at once.",
+      "That was the worst part about having cancer, sometimes: The physical evidence of disease separates you from other people.",
+      "People talk about the courage of cancer patients, and I do not deny that courage. I have been poked and stabbed and poisoned for years, and still I trod on.",
+      "The world is not a wish-granting factory."
+    ]
+  },
+  {
+    "origin_title": "The Fault in Our Stars",
+    "origin_genre": "romance",
+    "media_type": "novel",
+    "role": "protagonist",
+    "plot": "Hazel Grace Lancaster, a 16-year-old cancer patient, meets and falls in love with Gus Waters, a similarly afflicted teen from her cancer support group. Hazel feels that Gus really understands her. They both share the same acerbic wit and a love of books, especially Grace's touchstone, 'An Imperial Affliction' by Peter Van Houten. When Gus scores an invitation to meet the reclusive author, he and Hazel embark on the adventure of their brief lives.",
+    "name": "Augustus Waters",
+    "age": "17",
+    "gender": "male",
+    "occupation": "Student",
+    "physical_description": "Augustus has mahogany hair, bad posture and blue eyes. Augustus is well built- seeing as he used to play basketball. His right leg has been replaced with a prosthetic due to his osteosarcoma.",
+    "personality": "Augustus is strong, confident, funny, and charming boy. He continuously fetishizes his own grandiosity. He is convinced that the importance of life is being heroic, leaving a noble legacy, and monumentally impacting humanity.",
+    "background": "Augustus fears oblivion, as he wants to make a mark on the world. He hates the idea of not being able to leave a mark at all, due to his diagnosis of cancer",
+    "flaws": "Augustus is too focused on gaining an upper hand on his sickness and current state.",
+    "motivation": "He wants to leave his mark on the world",
+    "relationships": "",
+    "quotes": [
+      "If you don't live a life in service of a greater good, you've gotta at least die a death in service of a greater good, you know? And I fear that I won't get either a life or a death that means anything.",
+      "I'll fight it. I'll fight it for you. Don't you worry about me, Hazel Grace. I'm okay. I'll find a way to hang around and annoy you for a long time.",
+      "I'm in love with you, and I'm not in the business of denying myself the simple pleasure of saying true things.",
+      "I wanted more time so we could fall in love."
     ]
   }
 ]
