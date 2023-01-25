@@ -15,7 +15,9 @@
     "flaws": "",
     "motivation": "",
     "relationships": "",
-    "quotes": [""]
+    "quotes": [
+      ""
+    ]
   },
   {
     "origin_title": "Knives Out",
@@ -46,7 +48,7 @@
     "origin_title": "Knives Out",
     "origin_genre": "mystery",
     "media_type": "film",
-    "role": "deuteragonist ",
+    "role": "secondary character",
     "plot": "The circumstances surrounding the death of crime novelist Harlan Thrombey are mysterious, but there's one thing that renowned Detective Benoit Blanc knows for sure -- everyone in the wildly dysfunctional Thrombey family is a suspect. Now, Blanc must sift through a web of lies and red herrings to uncover the truth.",
     "name": "Marta Cabrera",
     "age": "29",
@@ -108,6 +110,236 @@
       "I'm going to say this just to you. No cameras, no courthouse, because you know it's true. We allowed you into our home, let you watch our grand dad, welcome you into our family. And now you think you can steal it from us. You think I'm not going to fight to protect my own, our birthright, our ancestral home...",
       "I regret not taking the Beemer.",
       "Oh shut up! Shut up! Shut up with that Kentucky fried Foghorn Leghorn drawl!"
+    ]
+  },
+  {
+    "origin_title": "The Great Gatsby",
+    "origin_genre": "Drama",
+    "media_type": "novel",
+    "role": "protagonist",
+    "plot": "Jay Gatsby, a self-made millionaire, pursues Daisy Buchanan, a wealthy young woman whom he loved in his youth.",
+    "name": "Jay Gatsby",
+    "age": "32",
+    "gender": "male",
+    "occupation": "Organized crime",
+    "physical_description": "Jay is well put together and has tan skin and short hair. He dresses well and it is clear that he is a man of wealth.",
+    "personality": "He is a dreamer who is charming, gracious, and a bit mysterious. He has an obsessive desire to achieve the 'old money' social status, which he cannot possibly achieve due to his modest background. Jay's obsession with his goal of becoming old money rich blinds him from the reality of society.",
+    "background": "Jay rose from an impoverished childhood in rural North Dakota to become fabulously wealthy. However, he achieved this lofty goal by participating in organized crime, including distributing illegal alcohol and trading in stolen securities. From his early youth, Gatsby despised poverty and longed for wealth and sophistication—he dropped out of St. Olaf College after only two weeks because he could not bear the janitorial job with which he was paying his tuition.",
+    "flaws": "Inability to let go of the past and accept reality",
+    "motivation": "To win Daisy over",
+    "relationships": "",
+    "quotes": [
+      "Oh, hello, old sport!",
+      "Can't repeat the past?… Why of course you can!",
+      "I knew it was a great mistake for a man like me to fall in love...",
+      "I'm only 32... I might still be a great man if I could only forget that I once lost Daisy.",
+      "I usually find myself among strangers because I drift here and there trying to forget the sad thing that happened to me."
+    ]
+  },
+  {
+    "origin_title": "The Great Gatsby",
+    "origin_genre": "Drama",
+    "media_type": "novel",
+    "role": "love interest",
+    "plot": "Jay Gatsby, a self-made millionaire, pursues Daisy Buchanan, a wealthy young woman whom he loved in his youth.",
+    "name": "Daisy Buchanan",
+    "age": "23",
+    "gender": "female",
+    "occupation": "Socialite",
+    "physical_description": "Daisy's face is sad and lovely with bright things in it, bright eyes and a bright passionate mouth",
+    "personality": "From the outside she appears beautiful and charming. Daisy is a shallow, careless, and at times cheerful woman. However, she is neither as ignorant nor as fun-loving as she pretends to be. Daisy is slightly misunderstood. She is stuck in a loveless marriage to her husband, Tom Buchanan, who regularly cheats on her with his mistress Myrtle Wilson",
+    "background": "Daisy Fay was born in 1899 to a wealthy family in Louisville, Kentucky. Like many women of the time, she married for money, particularly to Tom Buchanan. Daisy and Gatsby fell in love when he was a soldier, and she promised to wait for him when he went to fight in World War I, but a few years later, she married Tom Buchanan. The day before her marriage, she drank and she cried when she received Gatsby's letter, showing some regret, but the next day, she felt content about the marriage.",
+    "flaws": "She is fickle, shallow, bored, and sardonic. She is often careless and reckless.",
+    "motivation": "She is motivated purely by her own comfort and security",
+    "relationships": "",
+    "quotes": [
+      "I'm p-paralyzed with happiness.",
+      "I think everything's terrible anyhow… I've been everywhere and seen everything and done everything.",
+      "Rich girls don't marry poor boys."
+    ]
+  },
+  {
+    "origin_title": "The Great Gatsby",
+    "origin_genre": "Drama",
+    "media_type": "novel",
+    "role": "antagonist",
+    "plot": "Jay Gatsby, a self-made millionaire, pursues Daisy Buchanan, a wealthy young woman whom he loved in his youth.",
+    "name": "Tom Buchanan",
+    "age": "30",
+    "gender": "male",
+    "occupation": "Unemployed",
+    "physical_description": "Tom is an imposing man of muscular build with a 'husky tenor' voice and an arrogant demeanor.",
+    "personality": "Tom is an arrogant, hypocritical bully. His social attitudes are laced with racism and sexism, and he never even considers trying to live up to the moral standard he demands from those around him.",
+    "background": "Tom Buchanan comes from a staggeringly wealthy family with long-standing social prestige. Born in Chicago, Tom moved east during his college years, when he attended Yale and met Nick Carraway at the university's social club. At Yale, Buchanan was a Hockey star. Tom was one of those men who reach such an acute limited excellence.",
+    "flaws": "He is unfaithful, selfish, and arrogant",
+    "motivation": "Stay wealthy and have everything a high ranking member of society would have had",
+    "relationships": "",
+    "quotes": [
+      "She is not leaving me, certainly not for a common swindler.",
+      "You think I'm pretty dumb, don't you?",
+      "Daisy, can't you see who this guy is, with his house and his parties and his fancy clothes?.",
+      "Life is something you dominate, Nick! If you're any good.",
+      "We're all different from you. You see, we were born different.."
+    ]
+  },
+  {
+    "origin_title": "The Great Gatsby",
+    "origin_genre": "Drama",
+    "media_type": "novel",
+    "role": "tertiary character",
+    "plot": "Jay Gatsby, a self-made millionaire, pursues Daisy Buchanan, a wealthy young woman whom he loved in his youth.",
+    "name": "Jordan Baker",
+    "age": "21",
+    "gender": "female",
+    "occupation": "Professional golfer",
+    "physical_description": "Jordan is blond and very athletic, physical, tan, and angular.",
+    "personality": "Jordan is beautiful, but also dishonest: she cheated in order to win her first golf tournament and continually bends the truth",
+    "background": "Daisy is an professional golfer with a slightly shady reputation and a penchant for untruthfulness. She is a close friend of Daisy Buchanan.",
+    "flaws": "She is careless and dishonest.",
+    "motivation": "She desires to increase her wealth, and live a life of excitement and luxury",
+    "relationships": "",
+    "quotes": [
+      "And I like large parties. They're so intimate. At small parties there isn't any privacy.",
+      "It's a great advantage not to drink among hard-drinking people.",
+      "Life starts all over again when it gets crisp in the fall."
+    ]
+  },
+  {
+    "origin_title": "The Hunger Games",
+    "origin_genre": "sci-fi",
+    "media_type": "novel",
+    "role": "secondary character",
+    "plot": "Each year, for 74 years, the Hunger Games have taken place, forcing 24 children from 12 Districts (one boy and girl from each district) between the ages of 12-18 (who are chosen at the annual Reaping ceremonies) to fight to the deaths a punishment for the rebellion initiated by District 13. This year seems no different for Katniss Everdeen, until her younger sister, Prim , is called to participate. She volunteers and takes her sister's place as tribute to save her sister from certain death. The District 12 boy's name is Peeta Mellark.",
+    "name": "Haymitch Abernathy",
+    "age": "40",
+    "gender": "male",
+    "occupation": "Mentor",
+    "physical_description": "Haymitch is paunchy and middle-aged. He has curly dark hair and gray eyes that are bright as well as looking generally disheveled due to his rampant alcoholism.",
+    "personality": "Haymitch is often drunk, surly, and harsh, but on rare occasions he can be understanding, and has the capacity to remain sober. He is tactical and observant. He is often sarcastic and unfriendly and says things with brutal honesty.",
+    "background": "Haymitch Abernathy was District 12's second and only living Hunger Games victor for 24 years, having won the Second Quarter Quell, before Katniss Everdeen and Peeta Mellark won the 74th Hunger Games under his mentorship.",
+    "flaws": "He is an alcoholic and has a hot temper",
+    "motivation": "Keep his tributes alive",
+    "relationships": "",
+    "quotes": [
+      "Embrace The Probability Of Your Imminent Death, And Know, In Your Heart, That There's Nothing I Can Do To Save You.",
+      "Nobody Ever Wins The Games. Period. There Are Survivors ... No Winners.",
+      "Here's some advice. Stay alive.",
+      "You've got about as much charm as a dead slug."
+    ]
+  },
+  {
+    "origin_title": "The Hunger Games",
+    "origin_genre": "sci-fi",
+    "media_type": "novel",
+    "role": "protagonist",
+    "plot": "Each year, for 74 years, the Hunger Games have taken place, forcing 24 children from 12 Districts (one boy and girl from each district) between the ages of 12-18 (who are chosen at the annual Reaping ceremonies) to fight to the deaths a punishment for the rebellion initiated by District 13. This year seems no different for Katniss Everdeen, until her younger sister, Prim , is called to participate. She volunteers and takes her sister's place as tribute to save her sister from certain death. The District 12 boy's name is Peeta Mellark.",
+    "name": "Katniss Everdeen",
+    "age": "16",
+    "gender": "female",
+    "occupation": "Tribute",
+    "physical_description": "Katniss has long black hair, which she normally pulls back into a long braid, olive skin, and gray eyes. She is small in stature and thin for her age as she was generally malnourished because of her district's poverty. She is thus one of the smallest tributes in her Games, but due to her outdoor life, she is strong for her size.",
+    "personality": "Katniss has strong and independent survivalist instincts due to her difficult past and is good at thinking outside the box. She is not socially adept and has a hard time making friends due to the emotional strain on her life which has made her hard and cold. She is more concerned about feeding her family than being social, making her awkward around people. Though Katniss can be rather blunt, misanthropic, sarcastic, bitingly cynical, and cold, she has a very vulnerable side which she only shows around her family.",
+    "background": "Katniss Everdeen is a young girl from District 12, whose father was a miner and illegal hunter who traded in the Hob, the black market of District 12. Her mother was a healer from a family of apothecary owners and Katniss had a younger sister named Primrose. Her father taught her how to hunt and forage for edible plants in the woods beyond District 12. When Katniss was 11, her father died in a mining accident, leaving Katniss and her mother in a state of despair. Katniss became the head of the family and began to look for food in the town square. She was saved by Peeta Mellark, the baker's son, who gave her some burnt bread. Katniss also met Gale Hawthorne, an older boy whose father had died in the same accident as her father. Gale taught her about snares and she taught him to shoot with one of her father's bows.",
+    "flaws": "She has a hard time trusting and relying on others. She tends to make her own decisions and ignores orders or alliances. ",
+    "motivation": "Katniss' primary motivation is protecting her family and friends",
+    "relationships": "",
+    "quotes": [
+      "Yeah, but I'm not very good at making friends.",
+      "I stare in the mirror as I try to remember who I am and who I am not.",
+      "They're already taking my future! They can't have the things that mattered to me in the past!",
+      "For there to be betrayal, there would have to have been trust first.",
+      "Kind people have a way of working their way inside me and rooting there.",
+      "You don't forget the face of the person who was your last hope.",
+      "My spirit. This is a new thought. I'm not sure exactly what it means, but it suggests I'm a fighter. In a sort of brave way."
+    ]
+  },
+  {
+    "origin_title": "The Hunger Games",
+    "origin_genre": "sci-fi",
+    "media_type": "novel",
+    "role": "secondary character",
+    "plot": "Each year, for 74 years, the Hunger Games have taken place, forcing 24 children from 12 Districts (one boy and girl from each district) between the ages of 12-18 (who are chosen at the annual Reaping ceremonies) to fight to the deaths a punishment for the rebellion initiated by District 13. This year seems no different for Katniss Everdeen, until her younger sister, Prim , is called to participate. She volunteers and takes her sister's place as tribute to save her sister from certain death. The District 12 boy's name is Peeta Mellark.",
+    "name": "Peeta Mellark",
+    "age": "16",
+    "gender": "male",
+    "occupation": "Baker",
+    "physical_description": "Peeta has ashy blonde hair that falls in waves over his forehead, blue eyes, pale skin, and a stocky build. Even with a stocky build, Peeta is fairly small for a male.",
+    "personality": "Peeta has a very likable personality and is very charismatic. Kind and gentle, he is also very clever and skilled at manipulating others with his words. Though not brash or arrogant, he can be quite bold. He is a very talented public speaker. Similarly, he has a good sense of humor and doesn't take himself too seriously.",
+    "background": "Peeta's childhood was less than desirable, as his family life was difficult. His father was kind, but his mother was known to beat Peeta--and his two brothers--if they made a mistake.",
+    "flaws": "He can be naive and his sincerity can be seen as a weakness especially since he is constantly forced into life or death situations.",
+    "motivation": "Retain his identity and not to be made into a monster by his circumstances.",
+    "relationships": "",
+    "quotes": [
+      "Our lives aren't just measured in years. They're measured in the lives of people we touch around us.",
+      "I wish i could freeze this moment right here.. right now.. and live in it forever.",
+      "Only I keep wishing of a way to... to show the capitol they don't own me. That I'm more than just a piece in their games."
+    ]
+  },
+  {
+    "origin_title": "The Hunger Games",
+    "origin_genre": "sci-fi",
+    "media_type": "novel",
+    "role": "secondary character",
+    "plot": "Each year, for 74 years, the Hunger Games have taken place, forcing 24 children from 12 Districts (one boy and girl from each district) between the ages of 12-18 (who are chosen at the annual Reaping ceremonies) to fight to the deaths a punishment for the rebellion initiated by District 13. This year seems no different for Katniss Everdeen, until her younger sister, Prim , is called to participate. She volunteers and takes her sister's place as tribute to save her sister from certain death. The District 12 boy's name is Peeta Mellark.",
+    "name": "Gale Hawthorne",
+    "age": "18",
+    "gender": "male",
+    "occupation": "Coal miner",
+    "physical_description": "Gale is muscular and good-looking. He has dark hair, olive skin, and grey eyes and is over six feet tall.",
+    "personality": "He is fiercely devoted to his family and to Katniss and is a true rebel and visionary at heart. He is the strong, silent type.",
+    "background": "Gale is the oldest child of the Hawthorne family with three younger siblings; Rory, Vick, and the only girl, Posy who was born shortly after their father died in a mining accident that also killed Katniss' father. After his father's death, Gale struggles to provide for his family with help from his mother, Hazelle. To help feed his family, he hunted illegally in the forest adjacent to District 12.",
+    "flaws": "Gale gets very jealous and can be manipulative",
+    "motivation": "Gale is motivated by a desire to avenge the deaths of his people.",
+    "relationships": "",
+    "quotes": [
+      "You'll never be able to let him go. You'll always feel wrong about being with me.",
+      "I'm not going anywhere. I'm going to stay right here and cause all kinds of trouble.",
+      "We could do it, you know. Take off, live in the woods. What we do anyway."
+    ]
+  },
+  {
+    "origin_title": "The Hunger Games",
+    "origin_genre": "sci-fi",
+    "media_type": "novel",
+    "role": "tertiary character",
+    "plot": "Each year, for 74 years, the Hunger Games have taken place, forcing 24 children from 12 Districts (one boy and girl from each district) between the ages of 12-18 (who are chosen at the annual Reaping ceremonies) to fight to the deaths a punishment for the rebellion initiated by District 13. This year seems no different for Katniss Everdeen, until her younger sister, Prim , is called to participate. She volunteers and takes her sister's place as tribute to save her sister from certain death. The District 12 boy's name is Peeta Mellark.",
+    "name": "Cinna",
+    "age": "38",
+    "gender": "male",
+    "occupation": "Stylist",
+    "physical_description": "Cinna's appearance and comportment were very different from his contemporaries: Most people who live in the Capitol follow highly outlandish fashion trends, wear heavy makeup, and tend to have at least some of their physical features highly altered. By contrast, Cinna dressed in simple clothing and wore very minimal makeup. Wearing gold eyeliner is his unique and bizarre fashion choice, exposing gold flecks in his green eyes. Besides that, Cinna looks very normal, with short brown hair and green eyes.",
+    "personality": "Cinna is intelligent and crafty. He maintains strong control over his emotions so that his subtle acts of defiance towards the Capitol will not be too obvious. Cinna is a 'brilliant, enigmatic, lovely' person who takes pride in his work. He is also a very caring person.",
+    "background": "Cinna made his name in the Capitol as a stylist and was tasked with styling the tributes of district 12.",
+    "flaws": "Cinna does not have any notable flaws",
+    "motivation": "To help cement Katniss as a prominent political figure.",
+    "relationships": "",
+    "quotes": [
+      "I always channel my emotions into my work. That way, I don't hurt anyone but myself.",
+      "Remeber girl on fire, I'm still betting on you.",
+      "Remember, heads high. Smiles. They're going to love you!"
+    ]
+  },
+  {
+    "origin_title": "The Hunger Games",
+    "origin_genre": "sci-fi",
+    "media_type": "novel",
+    "role": "antagonist",
+    "plot": "Each year, for 74 years, the Hunger Games have taken place, forcing 24 children from 12 Districts (one boy and girl from each district) between the ages of 12-18 (who are chosen at the annual Reaping ceremonies) to fight to the deaths a punishment for the rebellion initiated by District 13. This year seems no different for Katniss Everdeen, until her younger sister, Prim , is called to participate. She volunteers and takes her sister's place as tribute to save her sister from certain death. The District 12 boy's name is Peeta Mellark.",
+    "name": "President Snow",
+    "age": "82",
+    "gender": "male",
+    "occupation": "President of Panem",
+    "physical_description": "President is a small, thin man, with paper-white hair and thick lips that seem pulled across his face.",
+    "personality": "President Snow is a very manipulative, cruel, and ruthless leader who does not care for the people of Panem.",
+    "background": "Coriolanus Snow is a native of the Capitol and eventually became the tyrannical and ruthless dictator of Panem. He was born into the Snow family, a well-known and once-rich family. His parents and grandparents were well-known, but his family had fallen on hard times and his only real currency in his youth was charm.",
+    "flaws": "Snow's tragic flaw is believing that using force and being strict is the way of keeping The Districts from rebelling.",
+    "motivation": "He wants total control over the nation",
+    "relationships": "",
+    "quotes": [
+      "Fear does not work as long as there is hope.",
+      "We both know I'm not above killing children, but I'm not wasteful.",
+      "It's the things we love most that destroy us.",
+      "It takes ten times as long to put yourself back together as it does to fall apart."
     ]
   }
 ]
