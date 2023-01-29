@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       fontFamily: {
         primary: ['Inter', ...fontFamily.sans],
+        heading: ['geller-headline'],
       },
       colors: {
         primary: {

@@ -23,6 +23,10 @@ class MyDocument extends Document {
             type='font/woff2'
             crossOrigin='anonymous'
           />
+          <link
+            rel='stylesheet'
+            href='https://use.typekit.net/hbn3grv.css'
+          ></link>
         </Head>
         <body>
           <Main />

@@ -3,19 +3,18 @@ import { useRouter } from 'next/router';
 
 // !STARTERCONF Change these default meta
 const defaultMeta = {
-  title: 'Next.js + Tailwind CSS + TypeScript Starter',
-  siteName: 'Next.js + Tailwind CSS + TypeScript Starter',
+  title: 'Story Starters | AI Story Writer',
+  siteName: 'Story Starters',
   description:
-    'A starter for Next.js, Tailwind CSS, and TypeScript with Absolute Import, Seo, Link component, pre-configured with Husky',
-  /** Without additional '/' on the end, e.g. https://theodorusclarence.com */
-  url: 'https://tsnext-tw.thcl.dev',
+    'Unlock the full potential of your writing with our AI Story Writer. Try it for free today. Brainstorm ideas, develop compelling plots, create memorable characters, and write amazing stories faster and smarter.',
+  url: 'https://www.storystarters.co',
   type: 'website',
   robots: 'follow, index',
   /**
    * No need to be filled, will be populated with openGraph function
    * If you wish to use a normal image, just specify the path below
    */
-  image: 'https://tsnext-tw.thcl.dev/images/large-og.png',
+  image: 'https://www.storystarters.co/images/large-og.png',
 };
 
 type SeoProps = {
@@ -59,7 +58,7 @@ export default function Seo(props: SeoProps) {
       {/* Twitter */}
       <meta name='twitter:card' content='summary_large_image' />
       {/* // !STARTERCONF Remove or change to your handle */}
-      {/* <meta name='twitter:site' content='@th_clarence' /> */}
+      <meta name='twitter:site' content='@storystartersco' />
       <meta name='twitter:title' content={meta.title} />
       <meta name='twitter:description' content={meta.description} />
       <meta name='twitter:image' content={meta.image} />
@@ -72,11 +71,11 @@ export default function Seo(props: SeoProps) {
             content={meta.date}
           />
           {/* // !STARTERCONF Remove or change to your name */}
-          <meta
+          {/* <meta
             name='author'
             property='article:author'
-            content='Theodorus Clarence'
-          />
+            content='Gavin Sidhu'
+          /> */}
         </>
       )}
 
@@ -91,8 +90,6 @@ export default function Seo(props: SeoProps) {
   );
 }
 
-// !STARTERCONF this is the default favicon, you can generate your own from https://realfavicongenerator.net/
-// ! then replace the whole /public/favicon folder and favicon.ico
 const favicons: Array<React.ComponentPropsWithoutRef<'link'>> = [
   {
     rel: 'apple-touch-icon',
