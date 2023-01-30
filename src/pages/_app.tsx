@@ -26,7 +26,9 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Script
         async
-        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}`}
+        src={`https://www.googletagmanager.com/gtag/js?id=${
+          process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID as string
+        }`}
         strategy='afterInteractive'
       />
       <Script id='twitter-pixel' strategy='afterInteractive'>
@@ -56,7 +58,9 @@ function MyApp({ Component, pageProps }: AppProps) {
           window.dataLayer = window.dataLayer || [];
           function gtag(){window.dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', '${process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}');
+          gtag('config', '${
+            process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID as string
+          }');
           gtag('config', 'AW-11009471108');
         `}
       </Script>
