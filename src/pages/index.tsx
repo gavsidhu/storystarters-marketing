@@ -525,7 +525,7 @@ export default function HomePage() {
               </h2>
               <p className='mt-6 text-center text-xl text-gray-700'>
                 Take the first step towards a faster, more efficient writing
-                process and try our AI story assistant today.
+                process and try our AI story writer today.
               </p>
               <div className='mx-auto mt-8 flex max-w-lg justify-center'>
                 <a
