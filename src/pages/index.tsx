@@ -5,8 +5,6 @@ import Layout from '@/components/layout/Layout';
 import SimpleFooter from '@/components/layout/SimpleFooter';
 import Seo from '@/components/Seo';
 
-import classNames from '@/utils/classNames';
-
 // !STARTERCONF -> Select !STARTERCONF and CMD + SHIFT + F
 // Before you begin editing, follow all comments with `STARTERCONF`,
 // to customize the default configuration.
@@ -51,57 +49,7 @@ const aiWriterFeatures = [
 //   },
 //    More questions...
 // ];
-const pricing = {
-  tiers: [
-    {
-      title: 'Starter',
-      price: 15,
-      frequency: '/month',
-      description: 'Ideal for aspiring writers or those just starting out.',
-      features: [
-        '20,000 words per month',
-        'Plot generator',
-        'Character creator',
-        'Story outline generator',
-        '7-day money-back guarantee',
-      ],
-      cta: 'Try for free',
-      mostPopular: false,
-    },
-    {
-      title: 'Standard',
-      price: 60,
-      frequency: '/month',
-      description:
-        'Perfect for writers looking to take their writing to the next level.',
-      features: [
-        '100,000 words per month',
-        'Plot generator',
-        'Character creator',
-        'Story outline generator',
-        '7-day money-back guarantee',
-      ],
-      cta: 'Try for free',
-      mostPopular: false,
-    },
-    {
-      title: 'Professional',
-      price: 100,
-      frequency: '/month',
-      description:
-        'Tailored for professional writers who are looking to elevate their craft.',
-      features: [
-        '200,000 words per month',
-        'Plot generator',
-        'Character creator',
-        'Story outline generator',
-        '7-day money-back guarantee',
-      ],
-      cta: 'Try for free',
-      mostPopular: false,
-    },
-  ],
-};
+
 const features = [
   {
     name: 'Plot Generator',
@@ -181,7 +129,7 @@ export default function HomePage() {
   return (
     <Layout>
       {/* <Seo templateTitle='Home' /> */}
-      <Seo templateTitle='Home' />
+      <Seo templateTitle='AI Story Writer' url='https://www.storystarters.co' />
 
       <main>
         {/* Hero */}
@@ -204,12 +152,12 @@ export default function HomePage() {
                       href='https://app.storystarters.co/register'
                       className='inline-flex w-1/2 items-center justify-center rounded-md border border-transparent bg-primary-500 px-5 py-3 text-base font-medium text-white hover:bg-primary-600'
                     >
-                      Try for free
+                      Start For Free
                     </a>
                   </div>
                   <div className='mx-auto mt-2 text-center'>
-                    <p className='text-xs text-gray-500'>
-                      <span>No Commitments &#8226; Cancel Anytime</span>
+                    <p className='text-sm text-gray-500'>
+                      <span>No Credit Card Required</span>
                     </p>
                   </div>
                   {/* <div className='mt-8 sm:mx-auto sm:max-w-lg sm:text-center '>
@@ -403,8 +351,8 @@ export default function HomePage() {
           </div>
         </section>
         {/* Pricing */}
-        <section>
-          <div className='mx-auto max-w-7xl py-24 px-6 lg:px-8'>
+        {/* <section> */}
+        {/* <div className='mx-auto max-w-7xl py-24 px-6 lg:px-8'>
             <h2 className='font-heading text-3xl font-bold tracking-tight text-black sm:text-5xl sm:leading-none md:text-5xl'>
               Pricing for Every Writer
             </h2>
@@ -412,10 +360,10 @@ export default function HomePage() {
               We have a pricing plan that fits every writer's needs - whether
               you're a beginner just starting out or a seasoned pro looking to
               take your writing to the next level.
-            </p>
+            </p> */}
 
-            {/* Tiers */}
-            <div className='mt-24 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-8 lg:space-y-0'>
+        {/* Tiers */}
+        {/* <div className='mt-24 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-8 lg:space-y-0'>
               {pricing.tiers.map((tier) => (
                 <div
                   key={tier.title}
@@ -438,10 +386,10 @@ export default function HomePage() {
                         {tier.frequency}
                       </span>
                     </p>
-                    <p className='mt-6 text-gray-700'>{tier.description}</p>
+                    <p className='mt-6 text-gray-700'>{tier.description}</p> */}
 
-                    {/* Feature list */}
-                    <ul role='list' className='mt-6 space-y-6'>
+        {/* Feature list */}
+        {/* <ul role='list' className='mt-6 space-y-6'>
                       {tier.features.map((feature) => (
                         <li key={feature} className='flex'>
                           <HiCheck
@@ -469,7 +417,7 @@ export default function HomePage() {
               ))}
             </div>
           </div>
-        </section>
+        </section> */}
         {/* FAQs */}
         <section>
           {/* <div className='bg-gray-50'>
@@ -516,7 +464,7 @@ export default function HomePage() {
         {/* CTA */}
         <section>
           <div>
-            <div className='mx-auto max-w-7xl py-12 px-4 text-center sm:px-6 lg:py-16 lg:px-8'>
+            <div className='mx-auto mt-12 max-w-7xl py-12 px-4 text-center sm:px-6 lg:py-16 lg:px-8'>
               <h2 className='font-heading text-3xl font-bold tracking-tight text-black sm:text-4xl lg:text-5xl'>
                 <span className='block'>
                   Unlock the full potential of your writing
@@ -532,12 +480,12 @@ export default function HomePage() {
                   href='https://app.storystarters.co/register'
                   className='inline-flex w-1/2 items-center justify-center rounded-md border border-transparent bg-primary-500 px-5 py-3 text-base font-medium text-white hover:bg-primary-600'
                 >
-                  Try for free
+                  Start For Free
                 </a>
               </div>
               <div className='mx-auto mt-2 text-center'>
-                <p className='text-xs text-gray-500'>
-                  <span>No Commitments &#8226; Cancel Anytime</span>
+                <p className='text-sm text-gray-500'>
+                  <span>No Credit Card Required</span>
                 </p>
               </div>
             </div>
