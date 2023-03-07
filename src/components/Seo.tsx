@@ -57,7 +57,6 @@ export default function Seo(props: SeoProps) {
       <meta name='image' property='og:image' content={meta.image} />
       {/* Twitter */}
       <meta name='twitter:card' content='summary_large_image' />
-      {/* // !STARTERCONF Remove or change to your handle */}
       <meta name='twitter:site' content='@storystartersco' />
       <meta name='twitter:title' content={meta.title} />
       <meta name='twitter:description' content={meta.description} />
@@ -71,11 +70,7 @@ export default function Seo(props: SeoProps) {
             content={meta.date}
           />
           {/* // !STARTERCONF Remove or change to your name */}
-          {/* <meta
-            name='author'
-            property='article:author'
-            content='Gavin Sidhu'
-          /> */}
+          <meta name='author' property='article:author' content='Gavin Sidhu' />
         </>
       )}
 

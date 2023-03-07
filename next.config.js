@@ -10,7 +10,7 @@ const nextConfig = {
 
   //Uncoment to add domain whitelist
   images: {
-    domains: ['res.cloudinary.com', 'tailwindui.com'],
+    domains: ['res.cloudinary.com', 'tailwindui.com', 'cdn.sanity.io'],
   },
 
   // SVGR

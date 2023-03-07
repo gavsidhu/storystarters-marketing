@@ -70,7 +70,7 @@ function MyApp({ Component, pageProps }: AppProps) {
             `}
       </Script>
       <Script async src='https://r.wdfl.co/rw.js' data-rewardful='788d9b' strategy="afterInteractive" /> */}
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </>
   );
 }

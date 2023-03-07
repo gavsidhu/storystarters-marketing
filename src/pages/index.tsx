@@ -282,7 +282,7 @@ export default function HomePage() {
           </div>
         </section>
         {/* Feature Grid */}
-        <section>
+        <section id='features'>
           <div>
             <div className='mx-auto max-w-7xl px-6 sm:pt-24 lg:grid lg:grid-cols-3 lg:gap-x-12 lg:px-8 lg:pt-40'>
               <div>
