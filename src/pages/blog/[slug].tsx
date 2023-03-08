@@ -3,7 +3,7 @@ import { PortableText, PortableTextComponent } from '@portabletext/react';
 import imageUrlBuilder from '@sanity/image-url';
 import { GetStaticPropsContext } from 'next';
 
-import sanityClient from '@/lib/sanityClient';
+import { getClient, sanityClient } from '@/lib/sanity.server';
 
 import PostLayout from '@/components/blog/PostLayout';
 import Seo from '@/components/Seo';
@@ -126,8 +126,9 @@ export async function getStaticPaths() {
 
 export async function getStaticProps(context: GetStaticPropsContext) {
   // It's important to default the slug so that it doesn't return "undefined"
+  const preview = false;
   const slug = context.params?.slug || '';
-  const post = await sanityClient.fetch<Post>(
+  const post = await getClient(preview).fetch<Post>(
     `
     *[_type == "post" && slug.current == $slug][0]{
       title,
@@ -135,7 +136,7 @@ export async function getStaticProps(context: GetStaticPropsContext) {
       mainImage,
       publishedAt,
       body,
-      "author": author->name,
+      "author": author->name
     }
   `,
     { slug }
