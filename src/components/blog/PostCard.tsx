@@ -1,26 +1,19 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import imageUrlBuilder from '@sanity/image-url';
-import Image from 'next/image';
+
 import Link from 'next/link';
 import React from 'react';
-
-function urlFor(source: any) {
-  return imageUrlBuilder(sanityClient).image(source);
-}
-
-import sanityClient from '@/lib/sanityClient';
 
 import { Post } from '@/types/post';
 const PostCard = (post: Post) => {
   return (
     <article className='relative isolate flex flex-col gap-8 lg:flex-row'>
       <div className='relative aspect-[16/9] sm:aspect-[2/1] lg:aspect-square lg:w-64 lg:shrink-0'>
-        <Image
+        {/* <Image
           src={urlFor(post.mainImage).url()}
           alt=''
           className='absolute inset-0 h-full w-full rounded-2xl bg-gray-50 object-cover'
           fill
-        />
+        /> */}
         <div className='absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10' />
       </div>
       <div>
@@ -51,13 +44,13 @@ const PostCard = (post: Post) => {
         </div>
         <div className='mt-6 flex border-t border-black pt-6'>
           <div className='relative flex items-center gap-x-4'>
-            <Image
+            {/* <Image
               src={urlFor(post.authorImage).url()}
               alt=''
               className='h-10 w-10 rounded-full bg-gray-50'
               width={40}
               height={40}
-            />
+            /> */}
             <div className='text-sm leading-6'>
               <p className='font-semibold text-gray-900'>
                 <a href={post.authorUrl}>
