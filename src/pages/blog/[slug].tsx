@@ -70,9 +70,6 @@ const ptComponents: PtComponents = {
       <ul className='my-6 max-w-xl space-y-4 px-8 text-black'>{children}</ul>
     ),
     number: ({ children }: any) => <ol className='mt-lg'>{children}</ol>,
-
-    // // Ex. 2: rendering custom lists
-    // checkmarks: ({ children }) => <ol className="m-auto text-lg">{children}</ol>,
   },
   listItem: {
     // Ex. 1: customizing common list types
