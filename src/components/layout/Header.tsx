@@ -7,7 +7,7 @@ import { HiBars3, HiXMark } from 'react-icons/hi2';
 const navigation = [
   { name: 'Features', href: '/#features' },
   { name: 'Pricing', href: 'https://app.storystarters.co/register' },
-  { name: 'Blog', href: '/blog' },
+  // { name: 'Blog', href: '/blog' },
 ];
 
 export default function Header() {
