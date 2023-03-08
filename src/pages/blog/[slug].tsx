@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { PortableText, PortableTextComponent } from '@portabletext/react';
 import imageUrlBuilder from '@sanity/image-url';
+import groq from 'groq';
 import { GetStaticPropsContext } from 'next';
 
 import { getClient, sanityClient } from '@/lib/sanity.server';
@@ -115,7 +116,7 @@ const Post = ({ post }: PostProps) => {
 
 export async function getStaticPaths() {
   const paths = await sanityClient.fetch(
-    `*[_type == "post" && defined(slug.current)][].slug.current`
+    groq`*[_type == "post" && defined(slug.current)][].slug.current`
   );
 
   return {
@@ -129,7 +130,7 @@ export async function getStaticProps(context: GetStaticPropsContext) {
   const preview = false;
   const slug = context.params?.slug || '';
   const post = await getClient(preview).fetch<Post>(
-    `
+    groq`
     *[_type == "post" && slug.current == $slug][0]{
       title,
       description,
