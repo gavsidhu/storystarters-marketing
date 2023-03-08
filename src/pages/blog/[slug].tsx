@@ -81,20 +81,23 @@ const ptComponents: PtComponents = {
 
 const Post = ({ post }: PostProps) => {
   const {
-    author = 'Missing Author',
+    title = '',
+    author = '',
     publishedAt = '',
     mainImage,
-    body = 'missing',
-    description = 'missing',
+    body = '',
+    description = '',
   } = post;
   const imageUrl =
     `${url}/api/og?` +
+    `title=${encodeURIComponent(title)}` +
     `&author=${encodeURIComponent(author)}` +
     `&cover=${encodeURIComponent(urlFor(mainImage).url())}` +
     `&date=${publishedAt}`;
   return (
     <>
       <Seo
+        title={title}
         description={description}
         type='article'
         date={new Date(publishedAt).toDateString()}
@@ -102,6 +105,7 @@ const Post = ({ post }: PostProps) => {
       />
       <PostLayout>
         <article>
+          <h1 className='py-6'>{title}</h1>
           <PortableText value={body} components={ptComponents} />
         </article>
       </PostLayout>
@@ -125,7 +129,14 @@ export async function getStaticProps(context: GetStaticPropsContext) {
   const slug = context.params?.slug || '';
   const post = await sanityClient.fetch<Post>(
     `
-    *[_type == "post" && slug.current == $slug][0]
+    *[_type == "post" && slug.current == $slug][0]{
+      title,
+      description,
+      mainImage,
+      publishedAt,
+      body,
+      "author": author->name,
+    }
   `,
     { slug }
   );
