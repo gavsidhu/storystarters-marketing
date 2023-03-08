@@ -81,12 +81,12 @@ const ptComponents: PtComponents = {
 
 const Post = ({ post }: PostProps) => {
   const {
-    title = '',
-    author = '',
+    title = 'Missing Title',
+    author = 'Missing Author',
     publishedAt = '',
     mainImage,
-    body,
-    description,
+    body = 'missing',
+    description = 'missing',
   } = post;
   const imageUrl =
     `${url}/api/og?` +
