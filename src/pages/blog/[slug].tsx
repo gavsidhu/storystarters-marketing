@@ -81,7 +81,6 @@ const ptComponents: PtComponents = {
 
 const Post = ({ post }: PostProps) => {
   const {
-    title = 'Missing Title',
     author = 'Missing Author',
     publishedAt = '',
     mainImage,
@@ -90,14 +89,12 @@ const Post = ({ post }: PostProps) => {
   } = post;
   const imageUrl =
     `${url}/api/og?` +
-    `title=${encodeURIComponent(title)}` +
     `&author=${encodeURIComponent(author)}` +
     `&cover=${encodeURIComponent(urlFor(mainImage).url())}` +
     `&date=${publishedAt}`;
   return (
     <>
       <Seo
-        title={title}
         description={description}
         type='article'
         date={new Date(publishedAt).toDateString()}
@@ -105,7 +102,6 @@ const Post = ({ post }: PostProps) => {
       />
       <PostLayout>
         <article>
-          <h1 className='py-6'>{title}</h1>
           <PortableText value={body} components={ptComponents} />
         </article>
       </PostLayout>
