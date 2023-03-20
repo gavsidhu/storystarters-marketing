@@ -1,5 +1,9 @@
+import rehypePrism from '@mapbox/rehype-prism';
+import nextMDX from '@next/mdx';
+import remarkGfm from 'remark-gfm';
 /** @type {import('next').NextConfig} */
 /** @type {import('next').NextConfig} */
+
 const nextConfig = {
   eslint: {
     dirs: ['src'],
@@ -32,5 +36,12 @@ const nextConfig = {
     return config;
   },
 };
+const withMDX = nextMDX({
+  extension: /\.mdx?$/,
+  options: {
+    remarkPlugins: [remarkGfm],
+    rehypePlugins: [rehypePrism],
+  },
+});
 
-module.exports = nextConfig;
+export default withMDX(nextConfig);
