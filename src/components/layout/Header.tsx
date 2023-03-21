@@ -7,7 +7,7 @@ import { HiBars3, HiXMark } from 'react-icons/hi2';
 const navigation = [
   { name: 'Features', href: '/#features' },
   { name: 'Pricing', href: 'https://app.storystarters.co/register' },
-  // { name: 'Blog', href: '/blog' },
+  { name: 'Blog', href: '/blog' },
 ];
 
 export default function Header() {
@@ -50,7 +50,7 @@ export default function Header() {
           </a>
           <a
             href='https://app.storystarters.co/register'
-            className='rounded-md bg-primary-500 py-2 px-3 text-sm font-semibold text-white shadow-sm hover:bg-primary-600'
+            className='hidden rounded-md bg-primary-500 py-2 px-3 text-sm font-semibold text-white shadow-sm hover:bg-primary-600 md:block'
           >
             Sign up
           </a>
@@ -85,12 +85,6 @@ export default function Header() {
                 height={150}
               />
             </Link>
-            <a
-              href='https://app.storystarters.co/register'
-              className='ml-auto rounded-md bg-primary-500 py-2 px-3 text-sm font-semibold text-white shadow-sm hover:bg-primary-600'
-            >
-              Sign up
-            </a>
             <button
               type='button'
               className='-m-2.5 rounded-md p-2.5 text-gray-700'
@@ -119,6 +113,12 @@ export default function Header() {
                   className='-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-7 text-gray-700 hover:bg-gray-50'
                 >
                   Log in
+                </a>
+                <a
+                  href='https://app.storystarters.co/register'
+                  className='-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-7 text-gray-700 hover:bg-gray-50'
+                >
+                  Sign up
                 </a>
               </div>
             </div>

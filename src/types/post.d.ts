@@ -1,8 +1,8 @@
 export interface Post {
-  category: string[];
+  category: string;
   description: string;
-  mainImage: string;
-  publishedAt: number;
+  image: string;
+  published: string;
   slug: {
     current: string;
     _type: string;
@@ -11,5 +11,4 @@ export interface Post {
   author: string;
   authorImage: string;
   authorUrl: string;
-  body: TypedObject | TypedObject[];
 }

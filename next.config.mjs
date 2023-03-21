@@ -8,6 +8,7 @@ const nextConfig = {
   eslint: {
     dirs: ['src'],
   },
+  pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
 
   reactStrictMode: true,
   swcMinify: true,
