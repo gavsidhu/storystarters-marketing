@@ -157,7 +157,7 @@ export default function HomePage() {
                   </div>
                   <div className='mx-auto mt-2 text-center'>
                     <p className='text-sm text-gray-500'>
-                      <span>No Credit Card Required</span>
+                      <span>No Commitments &#9679; Cancel Anytime</span>
                     </p>
                   </div>
                   {/* <div className='mt-8 sm:mx-auto sm:max-w-lg sm:text-center '>
@@ -485,7 +485,7 @@ export default function HomePage() {
               </div>
               <div className='mx-auto mt-2 text-center'>
                 <p className='text-sm text-gray-500'>
-                  <span>No Credit Card Required</span>
+                  <span>No Commitments &#9679; Cancel Anytime</span>
                 </p>
               </div>
             </div>
