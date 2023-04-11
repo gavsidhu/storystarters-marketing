@@ -17,6 +17,12 @@ export async function getAllPosts() {
     cwd: path.join(process.cwd(), 'src/pages/blog/posts'),
   });
 
+  // Check if there are any MDX files in the folder
+  if (postFilenames.length === 0) {
+    // If no MDX files found, return an empty array
+    return [];
+  }
+
   const articles = await Promise.all(postFilenames.map(importPost));
 
   return articles.sort(
